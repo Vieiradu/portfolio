@@ -14,9 +14,9 @@
     /* Body */
     --accent-color: #E53E3E;
     /* Subtle accent (red/orange) */
-    --highlight-bg: #E2E8F0;
+    --highlight-bg: #e2e8f1;
     /* Marca-texto / Highlighter */
-    --border-color: #E2E8F0;
+    --border-color: #e2e8f1;
 
     /* Typography */
     --font-body: 'Inter', sans-serif;

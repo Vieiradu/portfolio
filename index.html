@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luiz Eduardo Vieira - Portfólio Profissional como Desenvolvedor Python e Django">
+    <title>Luiz Eduardo Vieira - Portfólio Profissional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">luiz.dev</a>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active" data-i18n="nav_home"><span class='nav-index'>[0]</span> Início</a></li>
+                    <li><a href="#trajetoria" class="nav-link" data-i18n="nav_trajectory"><span class='nav-index'>[1]</span> Trajetória</a></li>
+                    <li><a href="#cursos" class="nav-link" data-i18n="nav_courses"><span class='nav-index'>[2]</span> Cursos</a></li>
+                    <li><a href="#projetos" class="nav-link" data-i18n="nav_projects"><span class='nav-index'>[3]</span> Projetos</a></li>
+                    <li><a href="#contato" class="nav-link" data-i18n="nav_contact"><span class='nav-index'>[4]</span> Contato</a></li>
+                </ul>
+                <div class="lang-toggle">
+                    <span class="lang-text" id="lang-pt">PT</span> | <span class="lang-text dimmed" id="lang-en">EN</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content fade-in">
+                    <p class="hero-subtitle" data-i18n="hero_subtitle">Bem-vindo ao meu portfólio</p>
+                    <h1 class="hero-title"><span data-i18n="hero_greeting">Olá, eu sou</span> <br>Luiz Eduardo Vieira.</h1>
+                    <p class="hero-description" data-i18n="hero_role">Desenvolvedor <span class="highlight">Backend</span> · Especialista em <span class="highlight">Python</span> & <span class="highlight">Django</span></p>
+                    <div class="hero-actions">
+                        <a href="cv-luiz-eduardo.pdf" class="btn btn-primary" download data-i18n="btn_cv">Baixar CV</a>
+                        <a href="#projetos" class="btn btn-secondary" data-i18n="btn_projects">Ver Projetos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trajetória Section -->
+        <section id="trajetoria" class="section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title"><span data-i18n="section_trajectory">Minha</span> <span class="highlight" data-i18n="section_trajectory_span">Trajetória</span></h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title"><span data-i18n="role_jr">Desenvolvedor Júnior</span> <span class="current-badge" data-i18n="badge_current">Atual</span></h3>
+                            <span class="timeline-company">Recicla Lead</span>
+                            <p class="timeline-desc" data-i18n="role_jr_desc">[Descrição das atividades a preencher...]</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title" data-i18n="role_intern">Estagiário em Desenvolvimento</h3>
+                            <span class="timeline-company">Recicla Lead</span>
+                            <p class="timeline-desc" data-i18n="role_intern_desc">Manutenção do sistema, correção de bugs e auxílio no desenvolvimento.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title" data-i18n="role_grad">Graduando em Análise e Desenvolvimento de Sistemas</h3>
+                            <span class="timeline-company">Faculdade Impacta</span>
+                            <p class="timeline-desc" data-i18n="role_grad_desc">Foco em engenharia de software, banco de dados relacionais e não-relacionais, e arquitetura de sistemas web.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cursos Section -->
+        <section id="cursos" class="section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title"><span data-i18n="section_courses">Cursos e</span> <span class="highlight" data-i18n="section_courses_span">Certificações</span></h2>
+                </div>
+                
+                <div class="cards-grid">
+                    <div class="card fade-in-up">
+                        <h3 class="card-title">Certified Associate in Python (PCAP)</h3>
+                        <p class="card-desc" data-i18n="course_1_desc">Certificação reconhecida internacionalmente em fundamentos e orientação a objetos com Python.</p>
+                    </div>
+                    <div class="card fade-in-up">
+                        <h3 class="card-title">Django & Django REST Framework</h3>
+                        <p class="card-desc" data-i18n="course_2_desc">Especialização na construção de APIs seguras, autenticação JWT e arquitetura avançada.</p>
+                    </div>
+                    <div class="card fade-in-up">
+                        <h3 class="card-title" data-i18n="course_3_title">Banco de Dados SQL</h3>
+                        <p class="card-desc" data-i18n="course_3_desc">Modelagem de dados e otimização de queries em PostgreSQL e MySQL.</p>
+                    </div>
+                    <div class="card fade-in-up">
+                        <h3 class="card-title" data-i18n="course_4_title">Docker & Containerização</h3>
+                        <p class="card-desc" data-i18n="course_4_desc">Empacotamento de aplicações web e criação de ambientes isolados para deploy ágil.</p>
+                    </div>
+                    <div class="card fade-in-up">
+                        <h3 class="card-title" data-i18n="course_5_title">Arquitetura de Software</h3>
+                        <p class="card-desc" data-i18n="course_5_desc">Princípios SOLID, Clean Code, Design Patterns e arquitetura orientada a serviços (SOA).</p>
+                    </div>
+                    <div class="card fade-in-up">
+                        <h3 class="card-title" data-i18n="course_6_title">Git & Fluxos Ágeis</h3>
+                        <p class="card-desc" data-i18n="course_6_desc">Controle de versionamento colaborativo e atuação em times sob o framework Scrum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos Section -->
+        <section id="projetos" class="section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title"><span data-i18n="section_projects">Meus</span> <span class="highlight" data-i18n="section_projects_span">Projetos</span></h2>
+                    <a href="https://github.com/luizeduardo-dev" target="_blank" class="btn-link" data-i18n="btn_github">Ver Todos no GitHub &rarr;</a>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card fade-in-up">
+                        <div class="project-content">
+                            <span class="project-tag">Backend / API</span>
+                            <h3 class="project-title">E-commerce API REST</h3>
+                            <p class="project-desc" data-i18n="proj_1_desc">API robusta construída com Django REST Framework contendo carrinho de compras, checkout, autenticação JWT, Celery para tarefas assíncronas e Redis.</p>
+                            <a href="#" class="project-link" data-i18n="proj_1_link">Ver Repositório</a>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in-up">
+                        <div class="project-content">
+                            <span class="project-tag">Automação</span>
+                            <h3 class="project-title" data-i18n="proj_2_title">Web Scraper de Preços</h3>
+                            <p class="project-desc" data-i18n="proj_2_desc">Ferramenta automatizada em Python (BeautifulSoup e Selenium) para extrair e monitorar variações de preços de e-commerces gerando alertas por e-mail.</p>
+                            <a href="#" class="project-link" data-i18n="proj_1_link">Ver Repositório</a>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in-up">
+                        <div class="project-content">
+                            <span class="project-tag">Fullstack</span>
+                            <h3 class="project-title" data-i18n="proj_3_title">Sistema de Gestão Interna</h3>
+                            <p class="project-desc" data-i18n="proj_3_desc">Plataforma para gestão de estoque e fluxo de caixa utilizando o core do Django no backend e templates integrados com Bootstrap no frontend.</p>
+                            <a href="#" class="project-link" data-i18n="proj_1_link">Ver Repositório</a>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in-up">
+                        <div class="project-content">
+                            <span class="project-tag">Bot / API</span>
+                            <h3 class="project-title">Telegram Assistance Bot</h3>
+                            <p class="project-desc" data-i18n="proj_4_desc">Bot de atendimento inteligente em Python usando a biblioteca python-telegram-bot integrado a APIs externas para busca de informações rápidas.</p>
+                            <a href="#" class="project-link" data-i18n="proj_1_link">Ver Repositório</a>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in-up">
+                        <div class="project-content">
+                            <span class="project-tag">Integração</span>
+                            <h3 class="project-title" data-i18n="proj_5_title">Gateway de Pagamentos</h3>
+                            <p class="project-desc" data-i18n="proj_5_desc">Microserviço em Python focado exclusivamente em integrar gateways de pagamento (Stripe e Mercado Pago) processando webhooks com segurança.</p>
+                            <a href="#" class="project-link" data-i18n="proj_1_link">Ver Repositório</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer / Contato Section -->
+    <footer id="contato" class="footer">
+        <div class="container footer-container">
+            <div class="footer-content fade-in">
+                <h2 class="footer-title"><span data-i18n="footer_title">Vamos</span> <span class="highlight" data-i18n="footer_title_span">conversar!</span></h2>
+                <p class="footer-desc" data-i18n="footer_desc">Estou sempre aberto a novas oportunidades e desafios profissionais na área de desenvolvimento.</p>
+                
+                <div class="contact-links">
+                    <a href="https://wa.me/5511999999999" target="_blank" class="contact-btn">
+                        WhatsApp
+                    </a>
+                    <a href="https://www.linkedin.com/in/luizeduardovieira" target="_blank" class="contact-btn">
+                        LinkedIn
+                    </a>
+                    <a href="mailto:contato@luizeduardovieira.com" class="contact-btn">
+                        Email
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-i18n="footer_rights">&copy; 2026 Luiz Eduardo Vieira. Todos os direitos reservados.</p>
+                <div class="footer-nav">
+                    <a href="#trajetoria" data-i18n="nav_trajectory"><span class='nav-index'>[1]</span> Trajetória</a>
+                    <a href="#projetos" data-i18n="nav_projects"><span class='nav-index'>[3]</span> Projetos</a>
+                    <a href="#contato" data-i18n="nav_contact"><span class='nav-index'>[4]</span> Contato</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
